@@ -6,7 +6,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## 2a.How to create find the mean without using the "mean" function in R
+## 2a. How to create find the mean without using the "mean" function in R
 ### First, create your sequence to test.
 ```{r}
 a = seq(from = 0, to = 100)
@@ -32,9 +32,9 @@ a
 solve(d,a)
 ```
 ## 2c. Installing a package:
-```{r}
+
 install.packages("dplyr")
-```
+
 ## 2d. How to create a simple data frame in R:
 ### First, begin by setting up an object that is a data frame.
 ```{r}
